@@ -1,0 +1,46 @@
+section{
+    height: 500px;
+    width: 225px;
+    background-color: rgb(201, 227, 236);
+    color: rgb(8, 80, 104);
+    padding: 3px;
+    border-radius: 22px;
+}
+.button-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 40px;
+  gap: 6.6px;
+}
+.button-container button{
+    height: 45px;
+    width: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(78, 194, 233);
+
+}
+.button-container .blue{
+  border-radius: 17px;
+  background-color: rgb(53, 104, 124); 
+}
+.button-container .red{
+  background: rgb(230, 82, 109);
+}
+.button-container .orange{
+  background: orange;
+}
+.button-container .green{
+  background: green;
+}
+.screen{
+  height: 125px;
+}
+.screen h3{
+  height: 20px;
+}
+button{
+  border: none;
+}
